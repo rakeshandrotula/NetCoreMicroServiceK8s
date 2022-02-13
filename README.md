@@ -1,0 +1,1 @@
+# NetCoreMicroServiceK8s
