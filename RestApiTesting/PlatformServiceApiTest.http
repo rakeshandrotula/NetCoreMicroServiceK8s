@@ -1,1 +1,17 @@
-GET https://localhost:7144/api/platform
+@hostName = https://localhost:7144/api
+### Get All
+GET {{hostName}}/platform
+###
+
+### Get by Id
+GET {{hostName}}/platform/3
+
+### Post by Id
+POST {{hostName}}/platform
+Content-Type: application/json
+
+{
+    "name": "Rakesh4",
+    "publisher": "Androtula4",
+    "cost": "Costly4"
+}

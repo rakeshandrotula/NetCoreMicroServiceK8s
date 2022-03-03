@@ -10,7 +10,7 @@ namespace PlatformService.Data
         {
             this.context = context;
         }
-        public void CreatePlatformBy(Platform platform)
+        public void CreatePlatform(Platform platform)
         {
             if(platform==null){
                 throw new ArgumentNullException(nameof(platform));
